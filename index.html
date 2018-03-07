@@ -1,0 +1,138 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<title>HTML Portfolio</title>
+</head>
+		<style type="text/css">
+			p {
+				color: white;
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 20px;
+			}
+			h1 {
+				font-family: Oswald;
+				color: white;
+			}
+			body{
+			background-color: #2b2b2b;	
+			}
+			h6 {
+				color: white;
+			}
+			h4 {
+				color: white;
+			}
+			.fa {
+    			padding: 20px;
+   				font-size: 17px;
+    			width: 50px;
+    			text-align: center;
+    			text-decoration: none;
+    			border-radius: 50%;
+    		}
+    		.fa:hover {
+    		opacity: 0.7;
+			}
+			.fa-twitter {
+   			background: #55ACEE;
+    		color: white;
+			}
+			.fa-facebook {
+    		background: #3B5998;
+    		color: white;
+    		}
+    		.fa-instagram {
+  			background: #125688;
+  			color: white;
+			}
+			#grad {
+  			background: #4ca1af; /* For browsers that do not support gradients */
+  			background: -webkit-linear-gradient(#3E5151, #3a8999, #2C3E50); /* For Safari 5.1 to 6.0 */
+  			background: -o-linear-gradient(#3E5151, #3a8999, #2C3E50); /* For Opera 11.1 to 12.0 */
+  			background: -moz-linear-gradient(#3E5151, #3a8999, #2C3E50); /* For Firefox 3.6 to 15 */
+  			background: linear-gradient#3E5151, #3a8999, #2C3E50); /* Standard syntax */
+			}
+			.row-alt {
+			background: #cbe2c1;
+  			background: -webkit-linear-gradient(#ADA996,#F2F2F2, #DBDBDB, #EAEAEA);
+  			background:    -moz-linear-gradient(#ADA996,#F2F2F2, #DBDBDB, #EAEAEA);
+  			background:         linear-gradient(#ADA996, #F2F2F2, #DBDBDB, #EAEAEA);
+  			padding-top: 30px;
+			}        
+		</style>
+
+	<body id="grad">
+		<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">MyPortfolio</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#	">Home</a></li>
+      <li><a href="#AboutMe">About Me</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#Contact Links">Contact Links</a></li>
+    </ul>
+    <form class="navbar-form navbar-left">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search btn-xs"></i>
+  </div>
+</nav>
+		<h1 align="center" font-family=""Helvetica Neue", Helvetica, Arial, sans-serif" id="AboutMe">Portfolio
+		</h1>
+		<h6 align="center">Photo of reference</h6>
+		<img src="https://bottlegatedotcom.files.wordpress.com/2014/12/cameron2.png" width=15% class="img-responsive center-block" />
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br /> Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br /> Excepteur sint occaecat cupidatat non	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <br /><br /><br /><br />		
+		<h4 id="Projects"><strong>My Projects</strong></h4>
+<div class="row-alt">
+  <div class="container-fluid">   
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-wrap="true">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="https://cdn.pixabay.com/photo/2016/12/16/15/25/christmas-1911637_960_720.jpg" alt="placeholder-1100x618" class="img-circle center-block" style="width: 600px height:300px";/>
+      </div>
+    <div class="item">
+      <img src="https://cdn.pixabay.com/photo/2017/07/28/13/29/spices-2548653_960_720.jpg" alt="placeholder-1100x618" class="center-block img-circle" style="width: 600px height:300px" />
+      </div>
+    <div class="item">
+      <img src="https://cdn.pixabay.com/photo/2016/05/26/16/27/baking-1417494_960_720.jpg" class="center-block img-circle" style="width: 600px height:300px" />
+      <p style="clear: both;"></p>
+      </div>
+  </div>
+  <a class="carousel-control left" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control right" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>  
+  </div>
+</div>
+</div>
+    <h4 id="Contact Links">Contact links</h4>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>      
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>        
+    </script> 			
+	</body>  
+	</html>
